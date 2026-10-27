@@ -1,0 +1,1 @@
+This is a folder in which we will store our Hardware figures and images

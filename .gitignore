@@ -1,0 +1,187 @@
+# ==========================================
+# LAB DATA (CRITICAL)
+# ==========================================
+# Block common data science and matrix file formats to prevent leaking raw data
+*.csv
+*.xlsx
+*.xls
+*.tsv
+*.mat
+*.h5
+*.hdf5
+*.nc
+*.dat
+*.npy
+*.npz
+*.pkl
+*.pickle
+# Block environment files containing private API keys, passwords, or tokens
+*.env
+.env.*
+secrets.*
+copy_log.txt
+Code/CamusInfo*.csv
+Code/Backup/CamusInfo*.csv
+Data/
+*.avi
+*.mp4
+~*.*
+
+# Log files
+log*.txt
+*.log
+
+# Blender Temp/Backup Files
+*.blend1
+
+# ==========================================
+# Allow specific files with the above extensions
+# ==========================================
+!SampleCamusInfo.csv # Example from Camus repository
+!CamusPartsList.xlsx
+
+
+# ==========================================
+# PYTHON UNNEEDED FILES
+# ==========================================
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging / virtual environments
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+.env
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyBuilder
+.pybuilder/
+target/
+
+# IPython
+profile_default/
+ipython_config.py
+
+
+# ==========================================
+# R UNNEEDED FILES
+# ==========================================
+# History and workspace files
+.Rhistory
+.RData
+.Ruserdata
+
+# Application specific files
+.Rapp.history
+
+# External libraries and packages
+%-package.sty
+.Rproj.user/
+
+# Knitr/Sweave temporary compilation files
+*.bbl
+*.blg
+*.aux
+*.out
+*.log
+*.toc
+*.synctex.gz
+
+# ==========================================
+# MATLAB UNNEEDED FILES
+# ==========================================
+# MATLAB workspace recovery, crash dumps, and history
+*.asv
+*.m~
+*.slxc
+*.mex*
+*.mat
+mexopts.sh
+matlab.mat
+octave-workspace
+.matlab/
+
+# Simulink code generation directories
+slprj/
+*_ert_rtw/
+*_grt_rtw/
+*_slrt_rtw/
+
+# ==========================================
+# WINDOWS SYSTEM FILES
+# ==========================================
+# Folder view customizations and thumbnail caches
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.lnk
+*.cmd
+*.bat
+
+# Folder settings
+Desktop.ini
+
+# Recycle Bin used on external drives
+$RECYCLE.BIN/
+
+# ==========================================
+# MACOS SYSTEM FILES
+# ==========================================
+# General folder metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with a carriage return (\r)
+Icon?
+
+# Thumbnails and filesystem metadata
+._*
+.Spotlight-V100
+.Trashes
+VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# ==========================================
+# IDE & EDITOR CONFIGURATIONS
+# ==========================================
+# Visual Studio Code settings
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# JetBrains / PyCharm
+.idea/
+

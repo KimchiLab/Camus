@@ -1,0 +1,15 @@
+name: CAMUS
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11.12
+  - conda-forge::opencv=4.6.0
+  - ffmpeg=5.1.2
+  - pandas=2.1.1
+  - lxml=4.9.3
+  - comtypes=1.4.10
+  - openpyxl=3.0.10
+  - pip=25.1.1
+  - pip:
+    - opencv-contrib-python==4.11.0.86
