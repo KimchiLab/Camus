@@ -1,4 +1,4 @@
-# Camus (Private Development Repository)
+# Camus
 Camera for homecage recordings of Mus musculus mice  
 **"the whole of life can be summed up in an image"** - Albert Camus, *Between Yes and No*
 
